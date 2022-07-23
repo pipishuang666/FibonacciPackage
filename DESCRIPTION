@@ -1,0 +1,21 @@
+Package: FibonacciPackage
+Type: Package
+Title: Complete the Fibonacci sequence
+Version: 0.2.0
+Author: Shuang Wang
+Maintainer: Shuang Wang<759854242@qq.com>
+Description: It is a basic Fibonacci sequence for practicing.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
